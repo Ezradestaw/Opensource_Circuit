@@ -1,41 +1,48 @@
-# Python Circuit Simulator
+# 🛠️ Python Circuit Simulator
 
-A Python-based open-source circuit simulator designed for students who want to **practice and experiment with electrical circuits** without access to expensive laboratory equipment.  
+**“As students, we have the solutions for our problems!”**  
 
-This project combines my knowledge of electrical engineering, Python programming, and mathematics to create a tool that allows users to **simulate, analyze, and visualize circuits**.
+Welcome! I’m **Ezra Destaw**, and I created this Python Circuit Simulator to help students like us explore and experiment with electrical circuits — even when access to physical laboratories or expensive software is limited.  
+
+📧 You can reach me at: **ezradestaw@gmail.com**
 
 ---
 
-## 🎯 Purpose
+## 🌟 Why I Created This
 
-As a student of electrical engineering, I realized that:  
-- Circuit courses often lack access to practical labs.  
-- Online simulators are expensive and unaffordable for many students.  
+While studying **Fundamentals of Electrical Engineering Circuits** by Sadiku, I realized something:  
+- I didn’t have access to a proper laboratory.  
+- Commercial software for circuit simulation was often **expensive and unaffordable for students**.  
 
-This simulator was created to **fill that gap**, providing a free, open-source tool for learning and experimenting with circuits.
+So, I decided to **apply my Python knowledge** to develop an **open-source solution** that students can use freely. This project is my way of saying:  
+> “We, students, can build our own tools and solutions!”  
+
+If you are a student, hobbyist, or developer interested in electrical engineering, I invite you to **participate, contribute, and improve this project**.
 
 ---
 
 ## ⚡ Features
 
-- Simulate basic analog circuits:  
-  - Voltage Divider  
-  - RC Low-Pass / High-Pass Filter  
-  - RLC Circuits (future updates)  
-- Calculate voltages, currents, and basic signal responses.  
-- Visualize output using **graphs and plots**.  
-- Easy-to-use **command-line interface (CLI)** for inputting circuit parameters.  
-- Open-source and free for students and hobbyists.
+This simulator supports:
+
+- **Ohm’s Law** – Calculate current, voltage, and resistance.  
+- **Kirchhoff’s Laws** – Apply KCL and KVL to circuits.  
+- **Thevenin & Norton Theorems** – Find equivalent circuits.  
+- **Source Transformation** – Convert voltage sources to current sources and vice versa.  
+- **Transient Analysis** – Simulate capacitor and inductor behavior over time.  
+- **AC Circuit Analysis** – Plot and simulate different AC waveforms (sinusoidal, square, triangular).  
+- **Voltage & Current Division** – Explore how voltage and current distribute in a circuit.
 
 ---
 
 ## 🛠️ Requirements
 
-- Python 3.x  
-- `numpy`  
-- `scipy`  
-- `matplotlib`  
+- Python 3.7 or higher  
+- NumPy  
+- Matplotlib  
+- SciPy  
 
-Install required packages with:  
+Install dependencies using:
+
 ```bash
 pip install -r requirements.txt
