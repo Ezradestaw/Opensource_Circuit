@@ -88,15 +88,15 @@ If you are a student, developer, or engineer and want to collaborate, feel free 
 
 ---
 
-##  Support & Donations
+## Support & Donations
 
 If you like this project and want to support its development, you can donate using the options below:
 
-### 🇪🇹 CBE (Commercial Bank of Ethiopia)
+## 🇪🇹 CBE (Commercial Bank of Ethiopia)
 - Account Name: Ezira Destaw Mekonnen  
 - Account Number: 1000654959483  
 
-###  International Donations (Payoneer)
+## International Donations (Payoneer)
 - Account Holder: Ezra Destaw Mekonnen  
 - Platform: Payoneer  
 - Please contact me by email for Payoneer payment details.
