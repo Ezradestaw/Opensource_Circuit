@@ -1,0 +1,27 @@
+{
+  "name": "DC Voltage Divider",
+  "type": "DC",
+  "description": "Simple voltage divider using two resistors in series.",
+  "source": {
+    "type": "DC",
+    "voltage": 12
+  },
+  "components": [
+    {
+      "id": "R1",
+      "type": "resistor",
+      "value_ohms": 1000,
+      "nodes": ["n1", "n2"]
+    },
+    {
+      "id": "R2",
+      "type": "resistor",
+      "value_ohms": 2000,
+      "nodes": ["n2", "gnd"]
+    }
+  ],
+  "connections": {
+    "n1": "source_positive",
+    "gnd": "source_negative"
+  }
+}

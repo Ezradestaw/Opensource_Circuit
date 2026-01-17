@@ -1,0 +1,3 @@
+"""
+OpenCircuitSimulator Core Package
+"""

@@ -1,0 +1,54 @@
+{
+  "name": "BJT Common Emitter Amplifier",
+  "type": "DC+AC",
+  "description": "Simple transistor amplifier with biasing resistors.",
+  "source": {
+    "type": "DC",
+    "voltage": 12
+  },
+  "signal": {
+    "type": "AC",
+    "amplitude": 0.02,
+    "frequency_hz": 1000
+  },
+  "components": [
+    {
+      "id": "R1",
+      "type": "resistor",
+      "value_ohms": 10000,
+      "nodes": ["vcc", "base"]
+    },
+    {
+      "id": "R2",
+      "type": "resistor",
+      "value_ohms": 2000,
+      "nodes": ["base", "gnd"]
+    },
+    {
+      "id": "RC",
+      "type": "resistor",
+      "value_ohms": 1000,
+      "nodes": ["vcc", "collector"]
+    },
+    {
+      "id": "RE",
+      "type": "resistor",
+      "value_ohms": 470,
+      "nodes": ["emitter", "gnd"]
+    },
+    {
+      "id": "Q1",
+      "type": "bjt_npn",
+      "model": "2N3904",
+      "nodes": {
+        "collector": "collector",
+        "base": "base",
+        "emitter": "emitter"
+      }
+    }
+  ],
+  "connections": {
+    "vcc": "source_positive",
+    "gnd": "source_negative"
+  }
+}

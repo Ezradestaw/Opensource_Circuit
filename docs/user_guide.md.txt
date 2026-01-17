@@ -1,0 +1,15 @@
+# Open Circuit Simulator – User Guide
+
+Welcome to the Open Circuit Simulator!  
+This guide explains **how to use the GUI**, **add components**, **simulate circuits**, and **analyze results**.
+
+---
+
+## 1. Getting Started
+
+### 1.1 Launch the Application
+
+Run the simulator from the command line:
+
+```bash
+python main.py

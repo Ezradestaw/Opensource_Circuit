@@ -1,0 +1,35 @@
+{
+  "name": "AC RLC Series Circuit",
+  "type": "AC",
+  "description": "Series RLC circuit with sinusoidal AC source.",
+  "source": {
+    "type": "AC",
+    "amplitude": 10,
+    "frequency_hz": 1000,
+    "phase_deg": 0
+  },
+  "components": [
+    {
+      "id": "R1",
+      "type": "resistor",
+      "value_ohms": 100,
+      "nodes": ["n1", "n2"]
+    },
+    {
+      "id": "L1",
+      "type": "inductor",
+      "value_henry": 0.01,
+      "nodes": ["n2", "n3"]
+    },
+    {
+      "id": "C1",
+      "type": "capacitor",
+      "value_farad": 0.000001,
+      "nodes": ["n3", "gnd"]
+    }
+  ],
+  "connections": {
+    "n1": "source_positive",
+    "gnd": "source_negative"
+  }
+}

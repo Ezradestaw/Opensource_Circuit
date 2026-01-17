@@ -1,0 +1,8 @@
+numpy>=1.26
+scipy>=1.12
+sympy>=1.12
+matplotlib>=3.8
+plotly>=5.20
+pyqt5>=5.15
+numba>=0.59
+pytest>=8.0
