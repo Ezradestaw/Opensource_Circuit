@@ -93,13 +93,12 @@ If you are a student, developer, or engineer and want to collaborate, feel free 
 If you like this project and want to support its development, you can donate using the options below:
 
 ### 🇪🇹 CBE (Commercial Bank of Ethiopia)
-- **Account Name:** Ezira Destaw Mekonnen  
-- **Account Number:** 1000654959483  
+- Account Name: Ezira Destaw Mekonnen  
+- Account Number: 1000654959483  
 
 ###  International Donations (Payoneer)
-- **Account Holder:** Ezra Destaw Mekonnen  
-- **Platform:** Payoneer  
+- Account Holder: Ezra Destaw Mekonnen  
+- Platform: Payoneer  
 - Please contact me by email for Payoneer payment details.
 
-Your support helps keep this simulator **free, open-source, and accessible to students everywhere** 🙏⚡
-
+Your support helps keep this simulator free, open-source, and accessible to students everywhere
