@@ -1,7 +1,7 @@
 # 🔌 Open-Source Circuit Simulator (Python)
 
 A **free, secure, and open-source circuit simulator** built with Python for  
-**Electrical Engineering, Computer Engineering, and Computer Science students**.
+**Students interested in technology and computing**.
 
 This project was created to make circuit simulation accessible to everyone — especially students who don’t have access to physical laboratories or expensive online software.
 
@@ -27,7 +27,7 @@ So I decided to build a **free, open, and secure simulator** that anyone can use
 ✔ Free and open-source  
 ✔ Beginner-friendly  
 ✔ Accurate electrical simulations  
-✔ For EE, CE, and CS students  
+✔ For technology enthusiasts
 ✔ Built with Python  
 ✔ Community-driven
 
