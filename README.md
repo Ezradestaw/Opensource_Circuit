@@ -1,4 +1,4 @@
-# 🛠️ Python Circuit Simulator
+#  Python Circuit Simulator
 
 **“As students, we have the solutions for our problems!”**  
 
@@ -8,7 +8,7 @@ Welcome! I’m **Ezra Destaw**, and I created this Python Circuit Simulator to h
 
 ---
 
-## 🌟 Why I Created This
+## Why I Created This
 
 While studying **Fundamentals of Electrical Engineering Circuits** by Sadiku, I realized something:  
 - I didn’t have access to a proper laboratory.  
@@ -21,7 +21,7 @@ If you are a student, hobbyist, or developer interested in electrical engineerin
 
 ---
 
-## ⚡ Features
+##  Features
 
 This simulator supports:
 
@@ -35,7 +35,7 @@ This simulator supports:
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.7 or higher  
 - NumPy  
